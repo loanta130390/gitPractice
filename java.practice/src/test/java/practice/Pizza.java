@@ -23,7 +23,7 @@ public class Pizza {
 	}
 
 	public void printTimeToDeliver() {
-		System.out.println("Time to delivery is " + this.getStatus().getTimeToDelivery());
+		System.out.println("Time to delivery is less than " + this.getStatus().getTimeToDelivery() + " days");
 	}
 
 	public static List<Pizza> getAllUndeliveriedPizzas(List<Pizza> input) {
