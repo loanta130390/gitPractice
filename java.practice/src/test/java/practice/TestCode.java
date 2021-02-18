@@ -30,6 +30,7 @@ public class TestCode {
 	    
 	    EnumMap<Pizza.PizzaStatus,List<Pizza>> map = Pizza.groupPizzaByStatus(pzList);
 	    System.out.println(map.get(Pizza.PizzaStatus.DELIVERED).size());
+	    System.out.println("Committed");
 	}
 
 }
