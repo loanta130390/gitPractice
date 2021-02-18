@@ -7,4 +7,11 @@ public void setAuth() {
 	// TODO Auto-generated method stub
 
 }
+
+public void addNewLine() {
+	// TODO Auto-generated method stub
+
+}
+
+
 }
